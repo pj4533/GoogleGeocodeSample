@@ -3,7 +3,7 @@
 //  GoogleGeocodeSample
 //
 //  Created by PJ Gray on 7/28/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Say Goodnight Software. All rights reserved.
 //
 
 #import "GoogleGeocodeSampleAppDelegate.h"
