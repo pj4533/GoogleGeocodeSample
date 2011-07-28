@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A2A067C13E1888100A72284 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A067B13E1888100A72284 /* UIKit.framework */; };
+		0A2A067E13E1888100A72284 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A067D13E1888100A72284 /* Foundation.framework */; };
+		0A2A068013E1888100A72284 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2A067F13E1888100A72284 /* CoreGraphics.framework */; };
+		0A2A068613E1888100A72284 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A068413E1888100A72284 /* InfoPlist.strings */; };
+		0A2A068813E1888100A72284 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A068713E1888100A72284 /* main.m */; };
+		0A2A068C13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A068B13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.m */; };
+		0A2A068F13E1888100A72284 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A068D13E1888100A72284 /* MainWindow.xib */; };
+		0A2A069213E1888100A72284 /* GoogleGeocodeSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A069113E1888100A72284 /* GoogleGeocodeSampleViewController.m */; };
+		0A2A069513E1888100A72284 /* GoogleGeocodeSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2A069313E1888100A72284 /* GoogleGeocodeSampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A2A067713E1888100A72284 /* GoogleGeocodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleGeocodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A2A067B13E1888100A72284 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A2A067D13E1888100A72284 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A2A067F13E1888100A72284 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A2A068313E1888100A72284 /* GoogleGeocodeSample-Info.plist */ = {isa = PBXFileReference; path = "GoogleGeocodeSample-Info.plist"; sourceTree = "<group>"; };
+		0A2A068513E1888100A72284 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A2A068713E1888100A72284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A2A068913E1888100A72284 /* GoogleGeocodeSample-Prefix.pch */ = {isa = PBXFileReference; path = "GoogleGeocodeSample-Prefix.pch"; sourceTree = "<group>"; };
+		0A2A068A13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.h */ = {isa = PBXFileReference; path = GoogleGeocodeSampleAppDelegate.h; sourceTree = "<group>"; };
+		0A2A068B13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleGeocodeSampleAppDelegate.m; sourceTree = "<group>"; };
+		0A2A068E13E1888100A72284 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0A2A069013E1888100A72284 /* GoogleGeocodeSampleViewController.h */ = {isa = PBXFileReference; path = GoogleGeocodeSampleViewController.h; sourceTree = "<group>"; };
+		0A2A069113E1888100A72284 /* GoogleGeocodeSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleGeocodeSampleViewController.m; sourceTree = "<group>"; };
+		0A2A069413E1888100A72284 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GoogleGeocodeSampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2A067413E1888100A72284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A067C13E1888100A72284 /* UIKit.framework in Frameworks */,
+				0A2A067E13E1888100A72284 /* Foundation.framework in Frameworks */,
+				0A2A068013E1888100A72284 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A2A066C13E1888100A72284 = {
+			isa = PBXGroup;
+			children = (
+				0A2A068113E1888100A72284 /* GoogleGeocodeSample */,
+				0A2A067A13E1888100A72284 /* Frameworks */,
+				0A2A067813E1888100A72284 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A2A067813E1888100A72284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A067713E1888100A72284 /* GoogleGeocodeSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A2A067A13E1888100A72284 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A067B13E1888100A72284 /* UIKit.framework */,
+				0A2A067D13E1888100A72284 /* Foundation.framework */,
+				0A2A067F13E1888100A72284 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A2A068113E1888100A72284 /* GoogleGeocodeSample */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A068A13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.h */,
+				0A2A068B13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.m */,
+				0A2A068D13E1888100A72284 /* MainWindow.xib */,
+				0A2A069013E1888100A72284 /* GoogleGeocodeSampleViewController.h */,
+				0A2A069113E1888100A72284 /* GoogleGeocodeSampleViewController.m */,
+				0A2A069313E1888100A72284 /* GoogleGeocodeSampleViewController.xib */,
+				0A2A068213E1888100A72284 /* Supporting Files */,
+			);
+			path = GoogleGeocodeSample;
+			sourceTree = "<group>";
+		};
+		0A2A068213E1888100A72284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A2A068313E1888100A72284 /* GoogleGeocodeSample-Info.plist */,
+				0A2A068413E1888100A72284 /* InfoPlist.strings */,
+				0A2A068713E1888100A72284 /* main.m */,
+				0A2A068913E1888100A72284 /* GoogleGeocodeSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A2A067613E1888100A72284 /* GoogleGeocodeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A2A069813E1888100A72284 /* Build configuration list for PBXNativeTarget "GoogleGeocodeSample" */;
+			buildPhases = (
+				0A2A067313E1888100A72284 /* Sources */,
+				0A2A067413E1888100A72284 /* Frameworks */,
+				0A2A067513E1888100A72284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleGeocodeSample;
+			productName = GoogleGeocodeSample;
+			productReference = 0A2A067713E1888100A72284 /* GoogleGeocodeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A2A066E13E1888100A72284 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0A2A067113E1888100A72284 /* Build configuration list for PBXProject "GoogleGeocodeSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A2A066C13E1888100A72284;
+			productRefGroup = 0A2A067813E1888100A72284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A2A067613E1888100A72284 /* GoogleGeocodeSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A2A067513E1888100A72284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A068613E1888100A72284 /* InfoPlist.strings in Resources */,
+				0A2A068F13E1888100A72284 /* MainWindow.xib in Resources */,
+				0A2A069513E1888100A72284 /* GoogleGeocodeSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A2A067313E1888100A72284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A2A068813E1888100A72284 /* main.m in Sources */,
+				0A2A068C13E1888100A72284 /* GoogleGeocodeSampleAppDelegate.m in Sources */,
+				0A2A069213E1888100A72284 /* GoogleGeocodeSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A2A068413E1888100A72284 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2A068513E1888100A72284 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A2A068D13E1888100A72284 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2A068E13E1888100A72284 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0A2A069313E1888100A72284 /* GoogleGeocodeSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A2A069413E1888100A72284 /* en */,
+			);
+			name = GoogleGeocodeSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A2A069613E1888100A72284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A2A069713E1888100A72284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A2A069913E1888100A72284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleGeocodeSample/GoogleGeocodeSample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleGeocodeSample/GoogleGeocodeSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A2A069A13E1888100A72284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoogleGeocodeSample/GoogleGeocodeSample-Prefix.pch";
+				INFOPLIST_FILE = "GoogleGeocodeSample/GoogleGeocodeSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A2A067113E1888100A72284 /* Build configuration list for PBXProject "GoogleGeocodeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2A069613E1888100A72284 /* Debug */,
+				0A2A069713E1888100A72284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A2A069813E1888100A72284 /* Build configuration list for PBXNativeTarget "GoogleGeocodeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A2A069913E1888100A72284 /* Debug */,
+				0A2A069A13E1888100A72284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A2A066E13E1888100A72284 /* Project object */;
+}
